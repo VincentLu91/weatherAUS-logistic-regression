@@ -27,7 +27,7 @@ X_train = sc_X.fit_transform(X_train)
 X_test = sc_X.transform(X_test)
 
 # we've preprocessed and scaled the data so far, create logistic
-# regression and then train it.
+# regression and then train it
 
 from sklearn.linear_model import LogisticRegression
 
